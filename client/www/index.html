@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+  <title>Jet By Jet West</title>
+
+  <link rel="stylesheet" type="text/css" href="./style/ng-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body ng-app="app">
+
+<div ng-controller="HomeController" class="container">
+
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="home">Home</a>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div ui-view class="container">
+
+  </div>
+</div>
+
+<footer>
+
+</footer>
+
+<script src="./scripts/vendor/angular.js"></script>
+<script src="./scripts/vendor/react/react-addon.0.10.0.js"></script>
+<script src="./scripts/vendor/react/JSXTransformer.0.10.0.js"></script>
+
+<script src="./scripts/vendor/jquery/jquery-2.1.1.min.js"></script>
+
+<script src="./scripts/vendor/lib/ui-utils.js"></script>
+<script src="./scripts/vendor/lib/angular-animate.js"></script>
+<script src="./scripts/vendor/lib/angular-route.js"></script>
+<script src="./scripts/vendor/lib/angular-ui-router.js"></script>
+<script src="./scripts/vendor/lib/angular-sanitize.js"></script>
+<script src="./scripts/vendor/lib/ng-grid.js"></script>
+<script src="./scripts/vendor/lib/angular-resource.js"></script>
+<script src="./scripts/vendor/moment.min.js"></script>
+<script src="./scripts/vendor/lib/ui-bootstrap.js"></script>
+<script src="./scripts/vendor/lib/ui-bootstrap-tpls.js"></script>
+
+<!--<script src="./scripts/modules/common/lb-services.js"></script>-->
+
+<script src="./scripts/app.js"></script>
+
+<script src="./scripts/modules/home/home.module.js"></script>
+<script src="./scripts/modules/home/home.services.js"></script>
+<script src="./scripts/modules/home/home.controllers.js"></script>
+
+<!-- post -->
+<script src="./scripts/modules/post/post.module.js"></script>
+<script src="./scripts/modules/post/post.controllers.js"></script>
+<script src="./scripts/modules/post/post.services.js"></script>
+<script src="./scripts/modules/post/post.directives.js"></script>
+
+
+</body>
+</html>
